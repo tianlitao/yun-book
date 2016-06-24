@@ -144,6 +144,8 @@ button{
 	width:100%;
 	margin:0 auto;
 	margin-top:10px;
+	height:1625px;
+	overflow:hidden;
 }
 .container .search{
 	width:985px;
