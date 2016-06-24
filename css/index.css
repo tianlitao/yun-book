@@ -1,0 +1,269 @@
+﻿@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	font-family:"Microsoft YaHei";
+}
+ul{
+	list-style-type:none;
+}
+a:link {
+	text-decoration:none;
+}
+.black{
+	color:#000000;
+}
+.grey{
+	color:#999;
+}
+.orange{
+	color:#ff6500;
+	}
+button{
+	border: 0 none;
+        text-decoration: none;
+        list-style: none;
+}
+.clear{
+    clear:both;
+}
+.fl{
+    float:left;
+}
+
+/*<!--头部样式开始-->*/
+.head{
+	width:100%;
+}
+.logo{
+	width:1000px;
+	margin:0 auto;
+	padding:10px 0px;
+}
+/*<!--导航样式开始-->*/
+.nav{
+	width:100%;
+	background:#00bc49;
+	height:44px;
+	border-bottom: 10px solid #bbbe00;
+}
+.main{
+	width:1000px;
+	margin:0 auto;
+}
+.main ul li{
+	float:left;
+	width:250px;
+}
+.main ul li a{
+	width:250px;
+	line-height:44px;
+	font-size:18px;
+	color:#ffffff;
+	text-align:center;
+	display:inline-block;
+}
+.main ul li a:hover{
+	background-color:#bbbe00;
+}
+.main ul li a.select{
+	background:#bbbe00;
+}
+/*<!--内容样式开始-->*/
+.content{
+	width:970px;
+	margin:0 auto;
+	border:1px solid #e5e5e5;
+	padding:10px 15px 25px 15px;
+	color:rgb(105, 105, 105);
+}
+.content .title{
+	width:970px;
+	border-bottom:2px solid rgb(105, 105, 105);
+	margin: 0 auto;
+	text-align:center;
+	font-size:26px;
+	padding-bottom:15px;
+}
+.content .container{
+        border:0px;
+}
+.content .container p{
+	word-break:break-all;
+	letter-spacing:1px;
+	text-indent: 24pt;
+	font-size:18px;
+	line-height:25px;
+	margin-top:10px;
+}
+/*下载书目标题开始*/
+.load_title{
+	width:980px;
+	text-align:left;
+	font-size: 20px;
+	color:#ff6500;
+	font-weight:700;
+	line-height:48px;
+	margin:0 auto;
+	padding-left:20px;
+	margin-top:20px;
+}
+.flag{
+	width:1000px;
+	border:1px solid #e5e5e5;
+	margin:0 auto;
+	line-height:52px;
+	height:auto;
+	overflow:hidden;
+}
+.flag .caption{
+	float:left;
+	margin-left:20px;
+}
+.flag .load_icon{
+	line-height:52px;
+	width:60px;
+	float:right;
+	margin-right:20px;
+}
+.flag button{
+	width:60px;
+	height:30px;
+        line-height:30px;
+	background:#3f9f3f;
+	border-radius:5px;
+	color:#ffffff;
+	font-size:14px;
+	margin-top:10px;
+	}
+/*<!--书目样式开始-->*/
+.container{
+	width:100%;
+	margin:0 auto;
+	margin-top:10px;
+}
+.container .search{
+	width:985px;
+	height:48px;
+	background: #f1f1f1;
+	border:1px solid #e5e5e5;
+	padding:0px 15px 0px 0px ;
+	margin-top:15px;
+	line-height:35px;
+	margin:0 auto;
+}
+.search .search_main{
+	width:427px;
+	float:right;
+	margin:6px 0px;
+	padding:0px;
+}
+.search input{
+	height:24px;
+	width:330px;
+	line-height:34px;
+	font-size:14px;
+	padding:5px 10px;
+	color: #999999;
+	border:1px solid #ff6500;
+	
+}
+.search button{
+	width:70px;
+	height:36px;
+	font-size:14px;
+	line-height:36px;
+	background:#ff6500;
+	color:#FFF;
+	padding:0px;
+	cursor:pointer;
+}	
+.search button:hover{
+	background:#ff9500;
+	}
+.kind{
+	width:970px;
+	padding:10px 15px 25px;
+	border:1px solid #e5e5e5;
+	margin:0 auto;
+	border-top:0px;
+}
+.kind_name{
+	width: 20px;
+	color:#ff6500;
+	margin: 10px 20px 0px 0px;
+	float:left;
+	clear:both;
+	font-size:18px;
+}
+.kind .kind_r{
+	float:right;
+	width:930px;
+}
+.kind_more button{
+	width: 60px;
+    height: 30px;
+	font-size: 14px;
+    color: #fff;
+    background: #bbbe00;
+    cursor: pointer;
+	float:right;
+	margin:0 0 10px 0;
+}
+.kind ul li{
+	float:left;
+	width:120px;
+	margin:0px 35px 0px 0px;
+	}
+.kind ul li img{
+	width:100px;
+	height:145px;
+}
+.kind ul li p{
+	width:120px;
+	font-size:12px;
+	line-height:1.5em;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow: ellipsis;
+}
+ul li p.black{
+	white-space:normal;
+}
+ul li.last{
+	margin: 0px;
+}
+.desc .book_name{
+	height:40px;
+}
+/*联系人内容开始*/
+.content{
+	margin-bottom:150px;
+}
+.call_title{
+	width:100%;
+	font-size:20px;
+	text-align:left;
+	margin-bottom:20px;
+}
+.contacters{
+	width:1000px;
+	font-size:20px;
+	margin:0 auto;
+}
+.contacters span{
+	width:170px;
+	height:210px;
+	text-align:right;
+	line-height:20px;
+	float:left;
+}	
+.contacters .contacts{
+	height:auto;
+	width:800px;
+	margin:0 auto;
+
+}
